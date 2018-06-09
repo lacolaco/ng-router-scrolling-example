@@ -97,6 +97,12 @@
   dependencies:
     tslib "^1.9.0"
 
+"@angular/cdk@^6.2.0":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-6.2.1.tgz#6ac6e58e8557623e6615ebcb673d74bcc575641c"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/cli@~6.0.1":
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/@angular/cli/-/cli-6.0.8.tgz#65070958b944be30053232c51f8449b7ddd4d92a"
@@ -114,9 +120,9 @@
     symbol-observable "^1.2.0"
     yargs-parser "^10.0.0"
 
-"@angular/common@^6.0.0":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-6.0.4.tgz#e3d194a1bb1e143044774488d610437a982179fa"
+"@angular/common@angular/common-builds":
+  version "6.1.0-beta.0"
+  resolved "https://codeload.github.com/angular/common-builds/tar.gz/9680b0388997e18583fad8b16ed216b337cbb515"
   dependencies:
     tslib "^1.9.0"
 
@@ -157,15 +163,21 @@
   version "6.0.4"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-6.0.4.tgz#4a19c1734d28590d987268090b16b12e71a67c30"
 
-"@angular/platform-browser-dynamic@^6.0.0":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-6.0.4.tgz#3b86f6b826d45418520da583eb8ba0526f62a4bb"
+"@angular/material@^6.2.1":
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-6.2.1.tgz#aec3387db755145b80d66d8497d4a834f88b61be"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/platform-browser-dynamic@angular/platform-browser-dynamic-builds":
+  version "6.1.0-beta.0"
+  resolved "https://codeload.github.com/angular/platform-browser-dynamic-builds/tar.gz/e4049af4d3cc36b0bda2a8aea3ab5cfd268b0b68"
   dependencies:
     tslib "^1.9.0"
 
-"@angular/platform-browser@^6.0.0":
-  version "6.0.4"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-6.0.4.tgz#3a86890324fd9de37df8d7195fcedf4145eefb3b"
+"@angular/platform-browser@angular/platform-browser-builds":
+  version "6.1.0-beta.0"
+  resolved "https://codeload.github.com/angular/platform-browser-builds/tar.gz/ccf036b3eb42d831d2c7a74e3ed99e83fe577184"
   dependencies:
     tslib "^1.9.0"
 
@@ -5929,7 +5941,7 @@ tsickle@^0.29.0:
     source-map "^0.6.0"
     source-map-support "^0.5.0"
 
-tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
+tslib@^1.7.1, tslib@^1.8.0, tslib@^1.8.1, tslib@^1.9.0:
   version "1.9.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.2.tgz#8be0cc9a1f6dc7727c38deb16c2ebd1a2892988e"
 
